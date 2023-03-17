@@ -65,7 +65,7 @@ namespace DataDrivenWebDriverTestsNUnit
             calcButton.Click();
 
             // Assert
-            Assert.That(expectedResult, Is.EqualTo(result.Text));
+            Assert.That(result.Text, Is.EqualTo(expectedResult));
         } 
 
     }
