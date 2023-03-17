@@ -53,7 +53,7 @@ namespace DataDrivenWebDriverTestsNUnit
             var expectedResult = "Result: 12";
 
             // Assert
-            Assert.That(expectedResult, Is.EqualTo(result.Text));
+            Assert.That(result.Text, Is.EqualTo(expectedResult));
         }
 
         [Test]
@@ -70,7 +70,7 @@ namespace DataDrivenWebDriverTestsNUnit
             var expectedResult = "Result: -12";
 
             // Assert
-            Assert.That(expectedResult, Is.EqualTo(result.Text));
+            Assert.That(result.Text, Is.EqualTo(expectedResult));
         }
 
         [Test]
@@ -87,7 +87,7 @@ namespace DataDrivenWebDriverTestsNUnit
             var expectedResult = "Result: 20";
 
             // Assert
-            Assert.That(expectedResult, Is.EqualTo(result.Text));
+            Assert.That(result.Text, Is.EqualTo(expectedResult));
         }
 
         [Test]
@@ -104,7 +104,7 @@ namespace DataDrivenWebDriverTestsNUnit
             var expectedResult = "Result: 12.8";
 
             // Assert
-            Assert.That(expectedResult, Is.EqualTo(result.Text));
+            Assert.That(result.Text, Is.EqualTo(expectedResult));
         }
 
         [Test]
@@ -121,7 +121,7 @@ namespace DataDrivenWebDriverTestsNUnit
             var expectedResult = "Result: 20";
 
             // Assert
-            Assert.That(expectedResult, Is.EqualTo(result.Text));
+            Assert.That(result.Text, Is.EqualTo(expectedResult));
         }
 
         [Test]
@@ -138,7 +138,7 @@ namespace DataDrivenWebDriverTestsNUnit
             var expectedResult = "Result: 8";
 
             // Assert
-            Assert.That(expectedResult, Is.EqualTo(result.Text));
+            Assert.That(result.Text, Is.EqualTo(expectedResult));
         }
 
         [Test]
@@ -155,7 +155,7 @@ namespace DataDrivenWebDriverTestsNUnit
             var expectedResult = "Result: -8";
 
             // Assert
-            Assert.That(expectedResult, Is.EqualTo(result.Text));
+            Assert.That(result.Text, Is.EqualTo(expectedResult));
         }
 
         [Test]
@@ -172,7 +172,7 @@ namespace DataDrivenWebDriverTestsNUnit
             var expectedResult = "Result: 5";
 
             // Assert
-            Assert.That(expectedResult, Is.EqualTo(result.Text));
+            Assert.That(result.Text, Is.EqualTo(expectedResult));
         }
 
         [Test]
@@ -189,7 +189,7 @@ namespace DataDrivenWebDriverTestsNUnit
             var expectedResult = "Result: 5";
 
             // Assert
-            Assert.That(expectedResult, Is.EqualTo(result.Text));
+            Assert.That(result.Text, Is.EqualTo(expectedResult));
         }
 
         [Test]
@@ -206,7 +206,7 @@ namespace DataDrivenWebDriverTestsNUnit
             var expectedResult = "Result: Infinity";
 
             // Assert
-            Assert.That(expectedResult, Is.EqualTo(result.Text));
+            Assert.That(result.Text, Is.EqualTo(expectedResult));
         }
 
         [Test]
@@ -223,7 +223,7 @@ namespace DataDrivenWebDriverTestsNUnit
             var expectedResult = "Result: invalid input";
 
             // Assert
-            Assert.That(expectedResult, Is.EqualTo(result.Text));
+            Assert.That(result.Text, Is.EqualTo(expectedResult));
         }
 
     }
